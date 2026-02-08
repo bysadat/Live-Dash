@@ -43,7 +43,7 @@ const HomePage = ({
 
   return (
     <div>
-      <h1> 🚀Crypto Dashboard</h1>
+      <h1>Live Dash</h1>
       {loading && <Spinner color="white" />}
       {error && <div className="error">{error}</div>}
       <div className="top-controls">
