@@ -29,7 +29,7 @@ const CoinDetailsPage = () => {
 
   return (
     <div className="coin-details-container">
-      <Link to="/">🔙Back To Home Page</Link>
+      <Link to="/">Back To Home Page</Link>
       <h1 className="coin-details-title">
         {coin ? `${coin.name} (${coin.symbol.toUpperCase()})` : 'Coin Details'}
       </h1>
